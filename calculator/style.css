@@ -1,0 +1,74 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    left: 0%;
+    top: 0%;
+}
+h2{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2%;
+    font-weight: bold;
+    font-size: 2rem;
+    color: white;
+}
+.textarea{
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.textarea input{
+    height: 5vh;
+    font-weight: bold;
+    font-size: 1.4rem;
+    border-radius: 10px;
+    border: 2px solid white;
+    background-color: rgb(50, 50, 50);
+    color: white;
+}
+.row{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2%;
+    width: 7vw;
+    height: 10vh;
+    font-weight: bold;
+    font-size: 1.5rem;
+    background-color: rgb(41, 38, 38);
+    border-radius: 10px;
+    border: 5px solid white;
+    color: white;
+    transition-property: all;
+    transition-duration: 1s;
+}
+.button:hover{
+    background-color: bisque;
+    color: black;
+}
+@media(min-width:100px) and (max-width:1500px){
+    h2{
+        margin: 5%;
+    }
+    .textarea{
+        width: 70vw;
+    }
+    .button{
+        width: 15vw;
+    }
+}
